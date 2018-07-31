@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StructureMap.Test.smLog
+{
+    public class Writer : IWriter
+    {
+        public void WriteLine(string output)
+        {
+            Console.WriteLine(output);
+        }
+    }
+}
